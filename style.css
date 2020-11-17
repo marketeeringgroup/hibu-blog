@@ -1,0 +1,59 @@
+/*
+ Theme Name:     Divi Child
+ Theme URI:      https://www.elegantthemes.com/gallery/divi/
+ Description:    Divi Child Theme
+ Author:         Elegant Themes
+ Author URI:     https://www.elegantthemes.com
+ Template:       Divi
+ Version:        1.0.0
+*/
+
+
+/* =Theme customization starts here
+------------------------------------------------------- */
+
+/* Table of Contents 
+------------------------------------------------------- 
+Global Structure
+- Header
+- Footer
+
+Page Specific Elements
+
+/*
+
+/* ----------------------------------------------------
+                    Global Structure
+------------------------------------------------------- 
+
+/* Header
+------------------------------------------------------- */
+
+.et-db.et_divi_theme #et-boc .et-l .et_pb_menu_0_tb_header .et_pb_menu__icon.et_pb_menu__search-button,
+.et-db.et_divi_theme #et-boc .et-l .et_pb_menu_0_tb_header .et_pb_menu__icon.et_pb_menu__close-search-button {
+    font-size: 18px;
+}
+
+@media screen and (max-width: 980px) {
+    header .et_pb_menu .et_pb_menu_inner_container {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    header .et_pb_menu .et_pb_menu_inner_container .et_pb_menu__logo-wrap {
+        justify-content: center;
+        flex-grow: 1;
+    }
+
+    header .et_pb_menu .et_pb_menu_inner_container .et_pb_menu__wrap {
+        justify-content: flex-start;
+        max-width: 200px;
+    }
+
+    header .et_pb_row .et-last-child {
+        width: 200px;
+    }
+
+}
+
+
