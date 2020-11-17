@@ -18,13 +18,14 @@ Global Structure
 - Header
 - Footer
 
-Page Specific Elements
+Module Overrides
+- Blog Feed
 
 /*
 
-/* ----------------------------------------------------
+/* ------------------------------------------------------
                     Global Structure
-------------------------------------------------------- 
+------------------------------------------------------- */
 
 /* Header
 ------------------------------------------------------- */
@@ -52,8 +53,24 @@ Page Specific Elements
 
     header .et_pb_row .et-last-child {
         width: 200px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .et-db.et_divi_theme #et-boc .et-l .et_pb_menu_0_tb_header .et_pb_menu__icon.et_pb_menu__search-button,
+    .et-db.et_divi_theme #et-boc .et-l .et_pb_menu_0_tb_header .et_pb_menu__icon.et_pb_menu__close-search-button {
+        font-size: 1px;
     }
 
 }
 
+/* ------------------------------------------------------
+                    Module Overrides
+------------------------------------------------------- */
 
+/* Blog Feed
+------------------------------------------------------- */
+.sassy-blog-layout.et_pb_posts a.more-link {
+    width: auto;
+}
