@@ -79,18 +79,54 @@ Pages
                     Module Overrides
 ------------------------------------------------------- */
 
+/* ------------------------------------------------------
+                        Pages
+------------------------------------------------------- */
+
+/* Home
+------------------------------------------------------- */
+
+/* Featured Post Section */
+
+/* Add space between text/button */
+#page-container .featured-post .et_pb_button_0_tb_body_wrapper {
+    margin-top: 30px;
+}
+
+/* shrink width of button */
+#page-container .featured-post .et_pb_button_0_tb_body {
+    display: inline-block;
+    border-radius: 100px;
+}
+
+#page-container .featured-post .et_pb_button_0_tb_body:hover {
+    letter-spacing: 2px;
+    background-color: transparent;
+}
+
+/* Add arrow to button */
+#page-container .featured-post .et_pb_button_0_tb_body::after {
+    content: attr(data-icon);
+    line-height: inherit;
+    font-size: inherit !important;
+    opacity: 1;
+    margin-left: .3em;
+    left: auto;
+}
+
 /* Blog Feed
 ------------------------------------------------------- */
 /* read more button */
-.et-db.et_divi_theme #et-boc .et-l .et_pb_blog_1_tb_body .et_pb_post div.post-content a.more-link,
+.et-db.et_divi_theme #et-boc .et-l .et_pb_blog_2_tb_body .et_pb_post div.post-content a.more-link,
 .et_pb_blog_0_tb_body .et_pb_post div.post-content a.more-link {
     width: auto;
 }
 
 @media screen and (max-width: 767px) {
     /* read more button should be full width on mobile */
-    .et-db.et_divi_theme #et-boc .et-l .et_pb_blog_1_tb_body .et_pb_post div.post-content a.more-link,
-    .et_pb_blog_0_tb_body .et_pb_post div.post-content a.more-link {
+    .et-db.et_divi_theme #et-boc .et-l .et_pb_blog_2_tb_body .et_pb_post div.post-content a.more-link,
+    .et_pb_blog_0_tb_body .et_pb_post div.post-content a.more-link,
+    .sassy-blog-layout a.more-link {
         width: 100%;
         font-size: 18px;
         text-align: center;
@@ -126,9 +162,3 @@ Pages
     margin-bottom: 50px !important;
 }
 
-/* ------------------------------------------------------
-                        Pages
-------------------------------------------------------- */
-
-/* Home
-------------------------------------------------------- */
