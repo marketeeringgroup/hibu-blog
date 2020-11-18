@@ -20,7 +20,11 @@ Global Structure
 
 Module Overrides
 - Blog Feed
+- Blog - Single Post
+- Sidebar
 
+Pages
+- Home
 /*
 
 /* ------------------------------------------------------
@@ -93,8 +97,38 @@ Module Overrides
     }
 }
 
+/* Blog - Single Post
+------------------------------------------------------- */
+
+/* Display post meta in single row */
+.single-post .blog-post-meta > .et_pb_column {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Add spacing after each post meta field */
+.single-post .blog-post-meta > .et_pb_column .et_pb_text {
+    margin-right: 4px;
+}
+
+/* Add margin above each header */
+.single-post h2, 
+.single-post h3,
+.single-post h4,
+.single-post h5,
+.single-post h6 {
+    margin-top: 30px;
+}
+
 /* Sidebar
 ------------------------------------------------------- */
 .et_pb_column_1_4 .et_pb_widget {
     margin-bottom: 50px !important;
 }
+
+/* ------------------------------------------------------
+                        Pages
+------------------------------------------------------- */
+
+/* Home
+------------------------------------------------------- */
