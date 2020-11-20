@@ -128,6 +128,11 @@ Pages
 /* Subscribe Form
 ------------------------------------------------------- */
 
+/* Remove margin-top from h2 in text section for posts */
+.single-post .subscribe-cta h2 {
+    margin-top: 0;
+}
+
 /* Email Field */
 .subscribe-form #field0 {
     display: block;
@@ -195,15 +200,15 @@ Pages
 ------------------------------------------------------- */
 
 /* Display post meta in single row */
-.single-post .blog-post-meta > .et_pb_column {
+/* .single-post .blog-post-meta > .et_pb_column {
     display: flex;
     flex-wrap: wrap;
-}
+} */
 
 /* Add spacing after each post meta field */
-.single-post .blog-post-meta > .et_pb_column .et_pb_text {
+/* .single-post .blog-post-meta > .et_pb_column .et_pb_text {
     margin-right: 4px;
-}
+} */
 
 /* Add margin above each header */
 .single-post h2, 
