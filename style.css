@@ -40,6 +40,17 @@ Pages
     font-size: 18px;
 }
 
+/* Add contrast to search field/text */
+.et_pb_fullwidth_menu .et_pb_menu__search-input,
+.et_pb_fullwidth_menu .et_pb_menu__search-input::placeholder,
+.et_pb_menu .et_pb_menu__search-input,
+.et_pb_menu .et_pb_menu__search-input::placeholder {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
 /* hide search icon on mobile */
 @media screen and (max-width: 1025px) {
     .et-db.et_divi_theme #et-boc .et-l .et_pb_menu_0_tb_header .et_pb_menu__icon.et_pb_menu__search-button,
