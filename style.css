@@ -76,10 +76,6 @@ Pages
 }
 
 /* ------------------------------------------------------
-                    Module Overrides
-------------------------------------------------------- */
-
-/* ------------------------------------------------------
                         Pages
 ------------------------------------------------------- */
 
@@ -113,6 +109,57 @@ Pages
     margin-left: .3em;
     left: auto;
 }
+
+/* ------------------------------------------------------
+                    Module Overrides
+------------------------------------------------------- */
+
+/* Subscribe Form
+------------------------------------------------------- */
+
+/* Email Field */
+.subscribe-form #field0 {
+    display: block;
+    width: 100%;
+    line-height: 40px;
+    border-radius: 5px;
+    border-width: 0;
+    padding-left: 1em;
+    font-weight: bold;
+    color: #000;
+    font-size: 15px;
+}
+
+/* Email Label */
+.subscribe-form label {
+    display: none;
+}
+
+/* Submit Button */
+.subscribe-form #fSubmit {
+    margin-bottom: 0;
+    width: 100%;
+    text-transform: uppercase;
+    background-color: #f7931d;
+    border: 0;
+    line-height: 40px;
+    margin-top: 15px;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.subscribe-form #fSubmit::after {
+    content: attr(data-icon);
+    line-height: inherit;
+    font-size: inherit !important;
+    opacity: 1;
+    margin-left: .3em;
+    left: auto;
+}
+
 
 /* Blog Feed
 ------------------------------------------------------- */
