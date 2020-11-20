@@ -211,13 +211,15 @@ Pages
 } */
 
 /* Add margin above each header */
-.single-post h2, 
-.single-post h3,
-.single-post h4,
-.single-post h5,
-.single-post h6 {
+.single-post .et_pb_row_3_tb_body h2,
+.single-post .et_pb_row_3_tb_body h3,
+.single-post .et_pb_row_3_tb_body h4,
+.single-post .et_pb_row_3_tb_body h5,
+.single-post .et_pb_row_3_tb_body h6 {
     margin-top: 30px;
 }
+
+
 
 /* Sidebar
 ------------------------------------------------------- */
