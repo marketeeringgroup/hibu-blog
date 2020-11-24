@@ -225,6 +225,29 @@ Pages
     left: auto;
 }
 
+/* add styles for gutenberg block version*/
+.wp-block-columns.subscribe-cta {
+    box-shadow: 6px 6px 18px 0px rgba(0, 0, 0, 0.3);
+    margin: 30px auto 50px;
+}
+
+.wp-block-columns.subscribe-cta h2.margin-top-0 {
+    margin-top: 0;
+    color: #fff !important;
+}
+
+.wp-block-columns.subscribe-cta p {
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+@media screen and (max-width: 600px) {
+    .wp-block-columns.subscribe-cta p {
+        margin-bottom: 30px;
+    }
+}
+
+
 
 /* Blog Feed
 ------------------------------------------------------- */
